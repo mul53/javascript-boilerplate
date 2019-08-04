@@ -8,6 +8,7 @@ describe('Initial test', () => {
   });
 });
 
+// test failed
 describe('index.html', () => {
   it('should say hello',(done) => {
     const index = fs.readFileSync('./src/index.html',"utf-8")
